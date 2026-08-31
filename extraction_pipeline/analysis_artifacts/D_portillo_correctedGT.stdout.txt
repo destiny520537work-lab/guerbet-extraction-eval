@@ -1,0 +1,16 @@
+
+================================================================================
+  ABLATION  B0 -> V4    run=heldout_portillo_20260830
+================================================================================
+  protocol: audited strict   catalyst matching: string
+  model=claude-sonnet-4-6   reps=3   papers=1   GT rows=1
+  claude calls=30   failed=0 (0.0%)   wall=10.1 min   OCR repair=on
+
+Version        F1     sd       P       R  F1_text   rows  reps
+--------------------------------------------------------------------------------
+V4          0.240  0.061   0.149   0.619    0.240    5.7     3
+V5          0.263  0.000   0.161   0.714    0.263    6.0     3
+--------------------------------------------------------------------------------
+
+GT rows scored: 1 over 1 papers (restricted to this run's intended corpus).
+Wrote analysis_artifacts/D_portillo_correctedGT.json

@@ -1,0 +1,13 @@
+
+================================================================================
+  ABLATION  B0 -> V4    run=patents_2dmg_repairON_scoreview
+================================================================================
+  protocol: audited strict   catalyst matching: string
+
+Version        F1     sd       P       R  F1_text   rows  reps
+--------------------------------------------------------------------------------
+V4          0.112  0.019   0.515   0.063    0.112   42.7     3
+--------------------------------------------------------------------------------
+
+GT rows scored: 410 over 2 papers (restricted to this run's intended corpus).
+Wrote analysis_artifacts/A_repairON_2dmg_strict.json

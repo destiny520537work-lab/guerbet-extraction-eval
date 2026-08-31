@@ -1,0 +1,13 @@
+
+================================================================================
+  ABLATION  B0 -> V4    run=patents_us_scoreview
+================================================================================
+  protocol: audited reference-restricted   catalyst matching: string
+
+Version        F1     sd       P       R  F1_text   rows  reps
+--------------------------------------------------------------------------------
+V4          0.124  0.018   0.512   0.071    0.124   52.3     3
+--------------------------------------------------------------------------------
+
+GT rows scored: 416 over 3 papers (restricted to this run's intended corpus).
+Wrote analysis_artifacts/A_patents_refrestricted.json

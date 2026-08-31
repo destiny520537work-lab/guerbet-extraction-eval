@@ -1,0 +1,45 @@
+[
+  {
+    "paper": "Portillo Crespo 2022",
+    "catalyst": "Mg-Al",
+    "loading_g": null,
+    "temperature_K": "613",
+    "gas_mix": "0.39 bar ethanol",
+    "flow_rate_mL_min": null,
+    "LHSV_h": "0.03",
+    "WHSV_h": null,
+    "GHSV_h": null,
+    "pressure": "101 kPa",
+    "conversion_pct": "35",
+    "selectivity_pct": "48",
+    "_text_recoverable": {
+      "temperature_K": true,
+      "LHSV_h": true,
+      "pressure": true,
+      "conversion_pct": true,
+      "selectivity_pct": true
+    },
+    "_notes": "Portillo Crespo et al. 2022, Front. Chem. 10, 945596. Best result: 'At the lowest studied space velocity (0.03 h-1), we reached a highly commendable catalytic performance. The ethanol conversion level hit 35% with 48% selectivity to butanol', run at 340 degC = 613 K. GT ERROR (temperature): GT says 573 K (300 degC), but 300 degC appears in the paper only as a catalyst-stabilisation step, never as a reaction temperature — the screened range is 340-360 degC. GT ERROR (LHSV): GT says 0.235 h-1; the 35%/48% result is explicitly at 0.03 h-1. GT IS CORRECT ON PRESSURE: an earlier version of this extraction recorded 39 kPa, wrongly promoting the 0.39 bar ethanol PARTIAL pressure to the operating pressure. The paper states 'atmospheric pressure (0.39 bar of ethanol partial pressure)', so total pressure is 101 kPa as GT has it, and 0.39 bar belongs in gas_mix — which is exactly where GT put it. This partial-vs-total pressure slip is an EXTRACTOR failure mode, not a GT one, and is precisely what the crib sheet (V2+) is meant to prevent."
+  },
+  {
+    "paper": "Portillo Crespo 2022",
+    "catalyst": "Mg-Al",
+    "loading_g": null,
+    "temperature_K": "613",
+    "gas_mix": "0.39 bar ethanol",
+    "flow_rate_mL_min": null,
+    "LHSV_h": "0.235",
+    "WHSV_h": null,
+    "GHSV_h": null,
+    "pressure": "101 kPa",
+    "conversion_pct": "31",
+    "selectivity_pct": "31",
+    "_text_recoverable": {
+      "temperature_K": true,
+      "LHSV_h": true,
+      "conversion_pct": true,
+      "selectivity_pct": true
+    },
+    "_notes": "Long-term stability test conditions (340 degC baseline, 1300 h run) at the higher space velocity 0.235 h-1 — the LHSV value GT records. Lower conversion/selectivity than the 0.03 h-1 optimum. Pressure corrected to 101 kPa (atmospheric) per the note above."
+  }
+]

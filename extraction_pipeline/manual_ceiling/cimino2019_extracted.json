@@ -1,0 +1,59 @@
+[
+  {
+    "paper": "Cimino 2019",
+    "catalyst": "10% MgO/C",
+    "loading_g": "0.3-1",
+    "temperature_K": "623-723",
+    "gas_mix": "3% Ethanol/N2",
+    "flow_rate_mL_min": null,
+    "LHSV_h": null,
+    "WHSV_h": null,
+    "GHSV_h": "330",
+    "pressure": "101 kPa",
+    "conversion_pct": null,
+    "selectivity_pct": null,
+    "_text_recoverable": {
+      "conversion_pct": false,
+      "selectivity_pct": false
+    },
+    "_notes": "Conversion and selectivity for 10% MgO/AC are ONLY in Figure 5 (not stated in text). Paper calls it MgO/AC; Callum uses MgO/C — same material, alias issue."
+  },
+  {
+    "paper": "Cimino 2019",
+    "catalyst": "20% MgO/C",
+    "loading_g": "0.3-1",
+    "temperature_K": "623-723",
+    "gas_mix": "3% Ethanol/N2",
+    "flow_rate_mL_min": null,
+    "LHSV_h": null,
+    "WHSV_h": null,
+    "GHSV_h": "330",
+    "pressure": "101 kPa",
+    "conversion_pct": "68",
+    "selectivity_pct": "18.4",
+    "_text_recoverable": {
+      "conversion_pct": true,
+      "selectivity_pct": false
+    },
+    "_notes": "Text states: '68% ethanol conversion' and '12.5% butanol yield'. Paper defines yield=butanol_produced/ethanol_reacted (vol/vol), which is the SELECTIVITY by conventional definition. Derived selectivity=18.4% (12.5/0.68*100). Callum GT has 70%/60% — DISCREPANCY: Callum's selectivity definition differs from paper's 'butanol yield'."
+  },
+  {
+    "paper": "Cimino 2019",
+    "catalyst": "30% MgO/C",
+    "loading_g": "0.3-1",
+    "temperature_K": "623-723",
+    "gas_mix": "3% Ethanol/N2",
+    "flow_rate_mL_min": null,
+    "LHSV_h": null,
+    "WHSV_h": null,
+    "GHSV_h": "330",
+    "pressure": "101 kPa",
+    "conversion_pct": null,
+    "selectivity_pct": null,
+    "_text_recoverable": {
+      "conversion_pct": false,
+      "selectivity_pct": false
+    },
+    "_notes": "Text states '30% MgO loading leads to lower conversion and yield than 20%'. Exact values only in Figure 5 (not in text). Estimated from figure context: lower than 68%/12.5%."
+  }
+]

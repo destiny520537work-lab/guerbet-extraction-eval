@@ -1,0 +1,16 @@
+
+================================================================================
+  ABLATION  B0 -> V4    run=journal_v6v7_20260831
+================================================================================
+  protocol: audited reference-restricted   catalyst matching: string
+  model=claude-sonnet-4-6   reps=3   papers=6   GT rows=20
+  claude calls=204   failed=0 (0.0%)   wall=65.6 min   OCR repair=on
+
+Version        F1     sd       P       R  F1_text   rows  reps
+--------------------------------------------------------------------------------
+V6          0.648  0.011   0.699   0.604    0.648  117.7     3
+V7          0.588  0.000   0.634   0.548    0.588  121.3     3
+--------------------------------------------------------------------------------
+
+GT rows scored: 20 over 6 papers (restricted to this run's intended corpus).
+Wrote analysis_artifacts/E_v6v7_refrestricted.json

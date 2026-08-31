@@ -1,0 +1,43 @@
+[
+  {
+    "name": "US9056811",
+    "scope": "data",
+    "tokens_modified": 148,
+    "tiers": {
+      "T1": 140,
+      "D1": 8
+    },
+    "data_tokens_total": 1065,
+    "parseable_before": 484,
+    "parseable_after": 632,
+    "rescued": 148,
+    "coverage_before_pct": 45.45,
+    "coverage_after_pct": 59.34
+  },
+  {
+    "name": "US9024090",
+    "scope": "data",
+    "tokens_modified": 24,
+    "tiers": {
+      "T1": 24
+    },
+    "data_tokens_total": 1252,
+    "parseable_before": 299,
+    "parseable_after": 323,
+    "rescued": 24,
+    "coverage_before_pct": 23.88,
+    "coverage_after_pct": 25.8
+  },
+  {
+    "name": "US20100160692A1",
+    "scope": "data",
+    "tokens_modified": 0,
+    "tiers": {},
+    "data_tokens_total": 244,
+    "parseable_before": 82,
+    "parseable_after": 82,
+    "rescued": 0,
+    "coverage_before_pct": 33.61,
+    "coverage_after_pct": 33.61
+  }
+]

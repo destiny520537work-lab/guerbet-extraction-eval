@@ -1,0 +1,77 @@
+[
+  {
+    "paper": "Xi 2020",
+    "catalyst": "CuNi-PMO",
+    "loading_g": null,
+    "temperature_K": "593",
+    "gas_mix": "ethanol (LHSV 15 mL/g/h)",
+    "flow_rate_mL_min": null,
+    "LHSV_h": "15",
+    "WHSV_h": null,
+    "GHSV_h": null,
+    "pressure": "100 kPa",
+    "conversion_pct": "14",
+    "selectivity_pct": "71",
+    "_text_recoverable": {
+      "catalyst": true,
+      "loading_g": false,
+      "temperature_K": true,
+      "gas_mix": true,
+      "LHSV_h": true,
+      "pressure": true,
+      "conversion_pct": true,
+      "selectivity_pct": true
+    },
+    "_notes": "Xi 2020 (Catalysts 2020, 10, 996). Regime 2 (60-168 h, stable): ethanol conversion ~14%, 1-butanol selectivity ~71% (paper states '72.4%' precisely vs '~71%' in text). Conditions: 320°C (593K), 0.1 MPa (100 kPa), LHSV=15 mL/g/h. Catalyst loading 0.1g is back-calculated from LHSV and feed flow (1.18 g/h ÷ 0.789 g/mL = 1.5 mL/h; 1.5 mL/h ÷ 15 mL/g/h = 0.1 g) — not stated explicitly in text. GT ERROR: GT has conversion=71%, selectivity=4.4% — these appear to be swapped and incorrect relative to paper's regime 2 values. Paper clearly states regime 2 1-butanol selectivity ~71% and conversion ~14%."
+  },
+  {
+    "paper": "Xi 2020",
+    "catalyst": "Cu-PMO",
+    "loading_g": null,
+    "temperature_K": "593",
+    "gas_mix": "ethanol (LHSV 15 mL/g/h)",
+    "flow_rate_mL_min": null,
+    "LHSV_h": "15",
+    "WHSV_h": null,
+    "GHSV_h": null,
+    "pressure": "100 kPa",
+    "conversion_pct": null,
+    "selectivity_pct": "40.3",
+    "_text_recoverable": {
+      "catalyst": true,
+      "loading_g": false,
+      "temperature_K": true,
+      "gas_mix": true,
+      "LHSV_h": true,
+      "pressure": true,
+      "conversion_pct": false,
+      "selectivity_pct": true
+    },
+    "_notes": "Cu-PMO regime 2: selectivity to 1-butanol = 40.3% (stated explicitly: '40.3% vs 72.4%'). Conversion in regime 2 shows decreasing trend — no single stable value stated in text (figure only). 1-butanol yield ~1.9% in regime 2 (Figure S4). Not in GT."
+  },
+  {
+    "paper": "Xi 2020",
+    "catalyst": "Ni-PMO",
+    "loading_g": null,
+    "temperature_K": "593",
+    "gas_mix": "ethanol (LHSV 15 mL/g/h)",
+    "flow_rate_mL_min": null,
+    "LHSV_h": "15",
+    "WHSV_h": null,
+    "GHSV_h": null,
+    "pressure": "100 kPa",
+    "conversion_pct": "20",
+    "selectivity_pct": null,
+    "_text_recoverable": {
+      "catalyst": true,
+      "loading_g": false,
+      "temperature_K": true,
+      "gas_mix": true,
+      "LHSV_h": true,
+      "pressure": true,
+      "conversion_pct": true,
+      "selectivity_pct": true
+    },
+    "_notes": "Ni-PMO: conversion ~20% for complete runtime (stable). 1-butanol not formed (<1% yield, acetaldehyde only). Selectivity_pct stored as null (no butanol). Not in GT."
+  }
+]

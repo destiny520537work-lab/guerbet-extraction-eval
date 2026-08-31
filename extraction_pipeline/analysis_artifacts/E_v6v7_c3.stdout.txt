@@ -1,0 +1,16 @@
+
+================================================================================
+  ABLATION  B0 -> V4    run=journal_v6v7_20260831
+================================================================================
+  protocol: audited strict   catalyst matching: C3 match+gate
+  model=claude-sonnet-4-6   reps=3   papers=6   GT rows=20
+  claude calls=204   failed=0 (0.0%)   wall=65.6 min   OCR repair=on
+
+Version        F1     sd       P       R  F1_text   rows  reps
+--------------------------------------------------------------------------------
+V6          0.273  0.016   0.171   0.671    0.273  117.7     3
+V7          0.131  0.004   0.082   0.329    0.131  121.3     3
+--------------------------------------------------------------------------------
+
+GT rows scored: 20 over 6 papers (restricted to this run's intended corpus).
+Wrote analysis_artifacts/E_v6v7_c3.json

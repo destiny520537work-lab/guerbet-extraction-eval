@@ -1,0 +1,15 @@
+
+================================================================================
+  ABLATION  B0 -> V4    run=patents_v4_repairOFF_20260830
+================================================================================
+  protocol: audited strict   catalyst matching: string
+  model=claude-sonnet-4-6   reps=3   papers=2   GT rows=410
+  claude calls=38   failed=7 (18.4%)   wall=87.2 min   OCR repair=off
+
+Version        F1     sd       P       R  F1_text   rows  reps
+--------------------------------------------------------------------------------
+V4          0.098  0.015   0.490   0.054    0.098   39.7     3
+--------------------------------------------------------------------------------
+
+GT rows scored: 410 over 2 papers (restricted to this run's intended corpus).
+Wrote analysis_artifacts/B_repairOFF_strict.json

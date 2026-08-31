@@ -1,0 +1,36 @@
+open_access_repo,open_access,paper,catalyst,loading_g,temperature_K,gas_mix,flow_rate_mL_min,LHSV_h,WHSV_h,GHSV_h,pressure,conversion_pct,selectivity_pct
+,Y,Cimino 2019,10% MgO/C,0.3 - 1,623 - 723,3% Ethanol/N2,,,,330,101 kPa,60,30
+,Y,Cimino 2019,20% MgO/C,0.3 - 1,623 - 723,3% Ethanol/N2,,,,330,101 kPa,70,60
+,Y,Cimino 2019,30% MgO/C,0.3 - 1,623 - 723,3% Ethanol/N2,,,,330,101 kPa,58,52
+,Y,Malina 2024,Cu-Mg-Al,2,723,,,,,,10 Mpa,67,17
+,Y,Malina 2024,Co-Mg-Al,2,723,,,,,,10 Mpa,75,21
+,Y,Herrera 2024,Mg-Al,,573,2% ethanol/Ar,,,0.85,,101 kPa,55,2
+,Y,Liu 2022,Mg-Al,1,553,ethanol/N2,,,4.8,692,,4.4,0
+,Y,Liu 2022,Zn-Al,1,553,ethanol/N2,,,4.8,692,,8.5,0.2
+,Y,Liu 2022,Cu/Mg-Al,1,553,ethanol/N2,,,4.8,692,,43.1,33.2
+,Y,Liu 2022,Cu/Zn-Al,1,553,ethanol/N2,,,4.8,692,,33.9,7.7
+,Y,Malina 2025,0.5% Cu/Li-Al,1.5,573,6.75 g h-1 ethanol in N2,,,4.5,,10 Mpa,7,14
+,Y,Malina 2025,0.5% Cu/Li-Al,1.5,623,6.75 g h-1 ethanol in N2,,,4.5,,10 MPa,10,20
+,Y,Malina 2025,0.5% Cu/Li-Al,1.5,673,6.75 g h-1 ethanol in N2,,,4.5,,10 MPa,24,20
+,Y,Malina 2025,5% Cu/Li-Al,1.5,573,6.75 g h-1 ethanol in N2,,,4.5,,10 MPa,28,31
+,Y,Malina 2025,5% Cu/Li-Al,1.5,623,6.75 g h-1 ethanol in N2,,,4.5,,10 MPa,45,28
+,Y,Malina 2025,5% Cu/Li-Al,1.5,673,6.75 g h-1 ethanol in N2,,,4.5,,10 MPa,46,15-30
+,Y,Malina 2025,10% Cu/Li-Al,1.5,573,6.75 g h-1 ethanol in N2,,,4.5,,10 MPa,44,28
+,Y,Malina 2025,10% Cu/Li-Al,1.5,623,6.75 g h-1 ethanol in N2,,,4.5,,10 MPa,63,30
+,Y,Malina 2025,10% Cu/Li-Al,1.5,673,6.75 g h-1 ethanol in N2,,,4.5,,10 MPa,80,14-28
+Y,Y,Portillo Crespo 2022,Mg-Al,,613,0.39 bar ethanol,,0.03,,,101 kPa,35,48
+Y,Y,Xi 2020,CuNi-Mg-Al,0.1,593,1.18 g h-1 ethanol,,15 mL g-1 h-1,,,100 kPa,71,4.4
+Y,Y,GuO 2021, Mg-Al,,598,Ethanol / N2,,,0.2,,2 Mpa,33.88,35.06
+Y,,GuO 2021,0.025% Cu/Mg-Al,,598,Ethanol / N2,,,0.2,,2 Mpa,63.78,51.08
+Y,,GuO 2021,0.05% Cu/Mg-Al,,598,Ethanol / N2,,,0.2,,2 Mpa,65.67,49.24
+Y,,GuO 2021,0.1% Cu/Mg-Al,,598,Ethanol / N2,,,0.2,,2 Mpa,65.6,50.19
+Y,,GuO 2021,0.25% Cu/Mg-Al,,598,Ethanol / N2,,,0.2,,2 Mpa,63.07,31.08
+Y,,GuO 2021,0.5% Cu/Mg-Al,,598,Ethanol / N2,,,0.2,,2 Mpa,73.34,21.64
+Y,,Hanspal 2017,MgO,,633,Ethanol / N2,,,,,,4.4,33
+,,Hanspal 2017,Mg3(PO4)2,,633,Ethanol / N2,,,,,,5,0
+,,Hanspal 2017,HAP,,633,Ethanol / N2,,,,,,4.9,72
+,,,5Cu/C,0.5,503,1.18 g h-1 ethanol,50,,,,5 Mpa,17,4
+,,,5Cu-Mg/C,0.5,503,1.18 g h-1 ethanol,50,,,,5 Mpa,26,26
+,,,5Cu-Ba/C,0.5,503,1.18 g h-1 ethanol,50,,,,5 Mpa,28,13
+,,,5Cu-Zn/C,0.5,503,1.18 g h-1 ethanol,50,,,,5 Mpa,25,11
+,,,5Cu-Mn/C,0.5,503,1.18 g h-1 ethanol,50,,,,5 Mpa,27,33

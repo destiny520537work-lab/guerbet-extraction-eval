@@ -1,0 +1,17 @@
+  WARNING: meta.json lists 3 papers but files cover 6; scoring the union from disk.
+
+================================================================================
+  ABLATION  B0 -> V4    run=journal_v4v5_20260830
+================================================================================
+  protocol: audited strict   catalyst matching: C3 match+gate
+  model=claude-sonnet-4-6   reps=3   papers=3   GT rows=20
+  claude calls=114   failed=0 (0.0%)   wall=35.8 min   OCR repair=on
+
+Version        F1     sd       P       R  F1_text   rows  reps
+--------------------------------------------------------------------------------
+V4          0.270  0.020   0.169   0.677    0.270  122.7     3
+V5          0.118  0.018   0.071   0.359    0.118  159.0     3
+--------------------------------------------------------------------------------
+
+GT rows scored: 20 over 6 papers (restricted to this run's intended corpus).
+Wrote analysis_artifacts/C_v4v5_c3strict.json

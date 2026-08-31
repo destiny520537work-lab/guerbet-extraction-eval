@@ -1,0 +1,147 @@
+{
+ "created_utc": "2026-08-30T14:24:06.771328+00:00",
+ "scorer_sha256": "3e2823eaeac62230e90004b76c5c1153b14823974dc76da9c9c376a235571560",
+ "evaluate_sha256": "e2636c001d967133cc06c698778d2f20d6056775bdda0d06cc759e34839c3fff",
+ "normalise_sha256": "b27bb9b5c60e87597ac5e1e8a0b5d71a9eb1235f52b31e833c53480811c59032",
+ "units_sha256": "3627142bb6571f5102294b43091449ae2033594256f3b570e6451cc5da6429ec",
+ "jobs": [
+  {
+   "name": "A_patents_strict",
+   "command": "PIPELINE_GT=patent_ground_truth.csv python3 score_runs.py patents_us_scoreview --json-out analysis_artifacts/A_patents_strict.json",
+   "gt_file": "patent_ground_truth.csv",
+   "gt_sha256": "d7661c8531db94f3653125bf0e27c21f24f87756d47eb299906aa7777f74f684",
+   "source_run": "patents_us_scoreview",
+   "source_manifest_sha256": "5041384e559f8c01175f5542136af8fd2f1564b04314dbdf700fa244a57596c6",
+   "json_saved": true,
+   "exit": 0,
+   "source_manifest_note": "scoreview dir contains symlinks into finalised run A; hash is of run A's manifest_SHA256.txt"
+  },
+  {
+   "name": "A_patents_refrestricted",
+   "command": "PIPELINE_GT=patent_ground_truth.csv python3 score_runs.py patents_us_scoreview --reference-restricted --json-out analysis_artifacts/A_patents_refrestricted.json",
+   "gt_file": "patent_ground_truth.csv",
+   "gt_sha256": "d7661c8531db94f3653125bf0e27c21f24f87756d47eb299906aa7777f74f684",
+   "source_run": "patents_us_scoreview",
+   "source_manifest_sha256": "5041384e559f8c01175f5542136af8fd2f1564b04314dbdf700fa244a57596c6",
+   "json_saved": true,
+   "exit": 0,
+   "source_manifest_note": "scoreview dir contains symlinks into finalised run A; hash is of run A's manifest_SHA256.txt"
+  },
+  {
+   "name": "D_portillo_legacyGT",
+   "command": "PIPELINE_GT=ground_truth.csv python3 score_runs.py heldout_portillo_20260830 --json-out analysis_artifacts/D_portillo_legacyGT.json",
+   "gt_file": "ground_truth.csv",
+   "gt_sha256": "945b687b410ab1e9628200255634f8a2fed96da88879f4b559a2a092246368f9",
+   "source_run": "heldout_portillo_20260830",
+   "source_manifest_sha256": "59a8f00a09c8f98b96f117c2062e987140e990412714f4a234abc28e3b34b8a4",
+   "json_saved": true,
+   "exit": 0
+  },
+  {
+   "name": "D_portillo_correctedGT",
+   "command": "PIPELINE_GT=ground_truth_portillo_corrected.csv python3 score_runs.py heldout_portillo_20260830 --json-out analysis_artifacts/D_portillo_correctedGT.json",
+   "gt_file": "ground_truth_portillo_corrected.csv",
+   "gt_sha256": "08498fb5ec9570c770ad7d2da3566d2915c5e3bbc505857011d98be25d639fab",
+   "source_run": "heldout_portillo_20260830",
+   "source_manifest_sha256": "59a8f00a09c8f98b96f117c2062e987140e990412714f4a234abc28e3b34b8a4",
+   "json_saved": true,
+   "exit": 0
+  },
+  {
+   "name": "D_portillo_correctedGT_c3",
+   "command": "PIPELINE_GT=ground_truth_portillo_corrected.csv python3 score_runs.py heldout_portillo_20260830 --c3 --json-out analysis_artifacts/D_portillo_correctedGT_c3.json",
+   "gt_file": "ground_truth_portillo_corrected.csv",
+   "gt_sha256": "08498fb5ec9570c770ad7d2da3566d2915c5e3bbc505857011d98be25d639fab",
+   "source_run": "heldout_portillo_20260830",
+   "source_manifest_sha256": "59a8f00a09c8f98b96f117c2062e987140e990412714f4a234abc28e3b34b8a4",
+   "json_saved": true,
+   "exit": 0
+  },
+  {
+   "name": "C_v4v5_strict",
+   "command": "PIPELINE_GT=ground_truth.csv python3 score_runs.py journal_v4v5_20260830 --json-out analysis_artifacts/C_v4v5_strict.json",
+   "gt_file": "ground_truth.csv",
+   "gt_sha256": "945b687b410ab1e9628200255634f8a2fed96da88879f4b559a2a092246368f9",
+   "source_run": "journal_v4v5_20260830",
+   "source_manifest_sha256": "aa13c5e5335aaaeb75465d6a338ac17c9fb25a926529a9584f6290203a8d62e2",
+   "created_utc": "2026-08-30T14:28:01.775191+00:00",
+   "exit": 0
+  },
+  {
+   "name": "C_v4v5_refrestricted",
+   "command": "PIPELINE_GT=ground_truth.csv python3 score_runs.py journal_v4v5_20260830 --reference-restricted --json-out analysis_artifacts/C_v4v5_refrestricted.json",
+   "gt_file": "ground_truth.csv",
+   "gt_sha256": "945b687b410ab1e9628200255634f8a2fed96da88879f4b559a2a092246368f9",
+   "source_run": "journal_v4v5_20260830",
+   "source_manifest_sha256": "aa13c5e5335aaaeb75465d6a338ac17c9fb25a926529a9584f6290203a8d62e2",
+   "created_utc": "2026-08-30T14:28:02.147303+00:00",
+   "exit": 0
+  },
+  {
+   "name": "C_v4v5_c3strict",
+   "command": "PIPELINE_GT=ground_truth.csv python3 score_runs.py journal_v4v5_20260830 --c3 --json-out analysis_artifacts/C_v4v5_c3strict.json",
+   "gt_file": "ground_truth.csv",
+   "gt_sha256": "945b687b410ab1e9628200255634f8a2fed96da88879f4b559a2a092246368f9",
+   "source_run": "journal_v4v5_20260830",
+   "source_manifest_sha256": "aa13c5e5335aaaeb75465d6a338ac17c9fb25a926529a9584f6290203a8d62e2",
+   "created_utc": "2026-08-30T14:28:02.541574+00:00",
+   "exit": 0
+  },
+  {
+   "name": "B_repairOFF_strict",
+   "command": "PIPELINE_GT=patent_ground_truth.csv python3 score_runs.py patents_v4_repairOFF_20260830 --json-out analysis_artifacts/B_repairOFF_strict.json",
+   "gt_file": "patent_ground_truth.csv",
+   "gt_sha256": "d7661c8531db94f3653125bf0e27c21f24f87756d47eb299906aa7777f74f684",
+   "source_run": "patents_v4_repairOFF_20260830",
+   "source_manifest_sha256": "a134941c5db28cc7a343f9bdf21d938ababde87eda8f2680c99789a8acd682b9",
+   "source_manifest_note": null,
+   "created_utc": "2026-08-30T15:03:25.999252+00:00",
+   "exit": 0
+  },
+  {
+   "name": "A_repairON_2dmg_strict",
+   "command": "PIPELINE_GT=patent_ground_truth.csv python3 score_runs.py patents_2dmg_repairON_scoreview --json-out analysis_artifacts/A_repairON_2dmg_strict.json",
+   "gt_file": "patent_ground_truth.csv",
+   "gt_sha256": "d7661c8531db94f3653125bf0e27c21f24f87756d47eb299906aa7777f74f684",
+   "source_run": "patents_2dmg_repairON_scoreview",
+   "source_manifest_sha256": "5041384e559f8c01175f5542136af8fd2f1564b04314dbdf700fa244a57596c6",
+   "source_manifest_note": "scoreview symlinks into finalised run A (two damaged patents only)",
+   "created_utc": "2026-08-30T15:03:26.355466+00:00",
+   "exit": 0
+  },
+  {
+   "name": "E_v6v7_strict",
+   "command": "PIPELINE_GT=ground_truth.csv python3 score_runs.py journal_v6v7_20260831 --json-out analysis_artifacts/E_v6v7_strict.json",
+   "gt_file": "ground_truth.csv",
+   "gt_sha256": "945b687b410ab1e9628200255634f8a2fed96da88879f4b559a2a092246368f9",
+   "source_run": "journal_v6v7_20260831",
+   "source_manifest_sha256": "7512bd380f71e407aab9c7b393c0d92001c0f1984837d7ec2649239c3a846329",
+   "json_saved": true,
+   "exit": 0,
+   "note": "V6/V7 = thesis V4c/V5c; independent post hoc controlled experiment; both arms section-aware; only naming-instruction text differs (V6=V4 mapping text, V7=V5 neutral text); shared neutral schema catalyst example"
+  },
+  {
+   "name": "E_v6v7_refrestricted",
+   "command": "PIPELINE_GT=ground_truth.csv python3 score_runs.py journal_v6v7_20260831 --reference-restricted --json-out analysis_artifacts/E_v6v7_refrestricted.json",
+   "gt_file": "ground_truth.csv",
+   "gt_sha256": "945b687b410ab1e9628200255634f8a2fed96da88879f4b559a2a092246368f9",
+   "source_run": "journal_v6v7_20260831",
+   "source_manifest_sha256": "7512bd380f71e407aab9c7b393c0d92001c0f1984837d7ec2649239c3a846329",
+   "json_saved": true,
+   "exit": 0,
+   "note": "V6/V7 = thesis V4c/V5c; independent post hoc controlled experiment; both arms section-aware; only naming-instruction text differs (V6=V4 mapping text, V7=V5 neutral text); shared neutral schema catalyst example"
+  },
+  {
+   "name": "E_v6v7_c3",
+   "command": "PIPELINE_GT=ground_truth.csv python3 score_runs.py journal_v6v7_20260831 --c3 --json-out analysis_artifacts/E_v6v7_c3.json",
+   "gt_file": "ground_truth.csv",
+   "gt_sha256": "945b687b410ab1e9628200255634f8a2fed96da88879f4b559a2a092246368f9",
+   "source_run": "journal_v6v7_20260831",
+   "source_manifest_sha256": "7512bd380f71e407aab9c7b393c0d92001c0f1984837d7ec2649239c3a846329",
+   "json_saved": true,
+   "exit": 0,
+   "note": "V6/V7 = thesis V4c/V5c; independent post hoc controlled experiment; both arms section-aware; only naming-instruction text differs (V6=V4 mapping text, V7=V5 neutral text); shared neutral schema catalyst example"
+  }
+ ],
+ "updated_utc": "2026-08-30T20:29:40.162670+00:00"
+}
